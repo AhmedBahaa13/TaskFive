@@ -32,10 +32,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/finger_paint"
-        android:textStyle="bold"
         android:text="@string/ahmed_bahaa"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -46,28 +46,30 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/finger_paint"
-        android:textStyle="bold"
         android:text="@string/ahmeddev6_gmail_com"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <LinearLayout
         android:id="@+id/setting"
-        android:layout_width="343dp"
+        android:layout_width="350dp"
         android:layout_height="127dp"
         android:layout_marginTop="44dp"
         android:background="@drawable/view_background"
         android:orientation="vertical"
-        android:padding="10dp"
+        android:padding="5dp"
+        android:paddingStart="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
 
         <TextView
+            style="@style/Theme.TaskFiveText"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -77,6 +79,7 @@
             android:textStyle="bold" />
 
         <TextView
+            style="@style/Theme.TaskFiveText"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -87,6 +90,7 @@
 
 
         <TextView
+            style="@style/Theme.TaskFiveText"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -97,6 +101,7 @@
 
 
         <TextView
+            style="@style/Theme.TaskFiveText"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_weight="1"
