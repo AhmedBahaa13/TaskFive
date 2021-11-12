@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task Five</string>
+    <string name="title_home">Home</string>
+    <string name="my_courses">MyCourses</string>
+    <string name="profile">Profile</string>
+    <string name="lives_in">Lives In Cairo</string>
+    <string name="study_in">Study In Ain Shams University</string>
+    <string name="email">Email : ahmeddev6@gmail.com</string>
+    <string name="contac">Contact : 01554784584</string>
+    <string name="ahmed_bahaa">Ahmed Bahaa</string>
+    <string name="ahmeddev6_gmail_com">ahmeddev6@gmail.com</string>
+    <string name="free_courses">Free Courses</string>
+</resources>
