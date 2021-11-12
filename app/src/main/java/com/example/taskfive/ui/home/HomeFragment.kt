@@ -38,7 +38,7 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         arrayList = ArrayList()
-        customAdapter = CustomAdapter()
+        customAdapter = CustomAdapter(context)
         data()
         customAdapter.setData(arrayList)
         binding.recycle.adapter = customAdapter
@@ -49,16 +49,16 @@ class HomeFragment : Fragment() {
         _binding = null
     }
     private fun data(){
-        arrayList.add(Course("HTML, CSS, and Javascript for Web Developers","Coursera"))
-        arrayList.add(Course("Code Yourself! An Introduction to Programming","Coursera"))
-        arrayList.add(Course("Computer Science: Programming with a Purpose","Coursera"))
-        arrayList.add(Course("Learn to Program: The Fundamentals","Coursera"))
-        arrayList.add(Course("Marketing Digital","Coursera"))
-        arrayList.add(Course("The Strategy of Content Marketing","Coursera"))
-        arrayList.add(Course("CS50: Introduction to Computer Science","Harvard"))
-        arrayList.add(Course("Introduction to Bioconductor","Harvard"))
-        arrayList.add(Course("Advanced Bioconductor","Harvard"))
-        arrayList.add(Course("Introduction to Linear Models and Matrix Algebra","Harvard"))
+        arrayList.add(Course("Kotlin In Android","Youtube",R.drawable.kotlin,"https://www.youtube.com/playlist?list=PLF8OvnCBlEY2w-zdVPozupapiKzLzpyUZ"))
+        arrayList.add(Course("HTML, CSS, and Javascript for Web Developers","Coursera",R.drawable.html_course,"https://www.coursera.org/learn/html-css-javascript-for-web-developers"))
+        arrayList.add(Course("Code Yourself! An Introduction to Programming","Coursera",R.drawable.codeyourself,"https://www.coursera.org/learn/intro-programming"))
+        arrayList.add(Course("Computer Science: Programming with a Purpose","Coursera",R.drawable.introcslogo,"https://www.coursera.org/learn/cs-programming-java"))
+        arrayList.add(Course("Learn to Program: The Fundamentals","Coursera",R.drawable.large_icon,"https://www.coursera.org/learn/learn-to-program"))
+        arrayList.add(Course("Marketing Digital","Coursera",R.drawable.markiting,"https://www.coursera.org/learn/estrategia-marketing-digital"))
+        arrayList.add(Course("The Strategy of Content Marketing","Coursera",R.drawable.content_markiting,"https://www.coursera.org/learn/content-marketing"))
+        arrayList.add(Course("CS50: Introduction to Computer Science","Harvard",R.drawable.cs50,"https://online-learning.harvard.edu/course/cs50-introduction-computer-science?delta=0"))
+        arrayList.add(Course("Introduction to Bioconductor","Harvard",R.drawable.bioconductor,"https://online-learning.harvard.edu/course/data-analysis-life-sciences-5-introduction-bioconductor-annotation-and-analysis-genomes-and?delta=0"))
+        arrayList.add(Course("Advanced Bioconductor","Harvard",R.drawable.bioconductor,"https://online-learning.harvard.edu/course/data-analysis-life-sciences-6-high-performance-computing-reproducible-genomics?delta=0"))
 
     }
 }

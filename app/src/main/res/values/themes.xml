@@ -2,10 +2,11 @@
 <!-- Base application theme. -->
 <style name="Theme.TaskFive" parent="Theme.MaterialComponents.DayNight.NoActionBar">
     <!-- Primary brand color. -->
+    <item name="itemTextColor">@color/black</item>
 
-    <item name="android:textColor">#EA6D35</item>
-    <item name="colorPrimary">#3D7BE6</item>
-    <item name="colorPrimaryVariant">#0948B6</item>
+    <item name="android:textColor">@color/black</item>
+    <item name="colorPrimary">#F18F12</item>
+    <item name="colorPrimaryVariant">@color/black</item>
     <item name="colorOnPrimary">@color/teal_200</item>
     <!-- Secondary brand color. -->
     <item name="colorSecondary">@color/teal_200</item>
